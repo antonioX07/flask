@@ -190,4 +190,4 @@ def update_dropdown_options(nombre_localidad):
     return []
     
 if __name__ == '__main__':
-    app.run(debug=True, port=os.getenv("PORT", default=5000))
+    #uvicor.run('app:app', host='0.0.0.0', port=8000)
